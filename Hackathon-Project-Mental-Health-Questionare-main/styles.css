@@ -1,0 +1,140 @@
+/* ===============
+   	    BODY 
+   =============== */
+
+body{
+ 	margin: auto;
+	width: 50%;
+    text-align: center;
+}
+
+/* ===============
+   TITLE & HEADER
+   =============== */
+
+h2{ 
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 62px; 
+    font-weight: 800; 
+    line-height: 72px; margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #6e8aeb;
+}
+
+/* ===============
+   	   BUTTONS 
+   =============== */
+
+button{
+    font-family: consolas;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-style: italic;
+    border: 1px solid #6e8aeb;
+    color: #6e8aeb;
+    background-color: #ffffff;
+    margin: 0 3px;
+    border-radius: 100px;
+    padding: 0px 6px;
+    height: 20px;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+/* ===Inverted Hover=== */
+
+button:hover {
+    background-color: #6e8aeb;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* ===============
+       H3 TAGS
+   =============== */
+
+h3 {
+    /* ===Positioning and Size=== */
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+    /* ===Design=== */
+    font-weight: bold;    
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* ===============
+      QUESTIONS 
+   =============== */
+
+p{
+    /* ===Positioning and Size=== */
+    font-size: 15px;
+    line-height: 16px;    
+    
+    /* ===Design=== */
+    font-family: consolas;
+    color: #333333;
+}
+
+/* ===============
+      MESSAGES
+   =============== */
+
+.message-styling{
+    /* ===Positioning and Size=== */
+    font-size: 15px;
+    line-height: 16px;    
+    
+    /* ===Design=== */
+    font-family: consolas;
+    color: #333333;
+}
+
+/* ===============
+   ELEMENT STYLING 
+   =============== */
+
+/* ===Triangles=== */
+#tri01 {
+    position: fixed;
+    background-color: #6e8aeb;
+    width: 100px;
+    height: 600px;
+    bottom: -40px;
+    left: -70px;
+    transform: rotate(-10deg);
+    z-index: -100;
+}
+
+#tri02 {
+    position: fixed;
+    background-color: #6e8aeb;
+    width: 100px;
+    height: 600px;
+    top: -40px;
+    right: -70px;
+    transform: rotate(-10deg);
+    z-index: -100;
+}
+
+
+/* ===Input=== */
+input{
+    /* ===Positioning and Size=== */
+    font-size: 15px;
+    line-height: 16px;    
+
+    /* ===Design=== */
+    font-family: consolas;
+    color :#6e8aeb;
+    
+}    
